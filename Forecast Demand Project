@@ -200,7 +200,7 @@ write.csv(out,"Forecast.csv")
 # ---------------------------------------------------------
 # 52 Week Forecast for Garden Equipment
 # ---------------------------------------------------------
-ts_dtw = ts(dtw,[,GardenEquip], frequency = 52, start = c(2018,1))
+ts_dtw = ts(dtw,[,GardEquip], frequency = 52, start = c(2018,1))
 autoplot(ts_dtw)
 
 ts_dtw %>% 
